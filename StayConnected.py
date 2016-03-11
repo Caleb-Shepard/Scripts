@@ -5,7 +5,7 @@ import time
 os.system("clear") #Clear terminal on execution
 
 print "\nThis script was made originally to make my cellular wifi hotspot remain open by keeping internet activity active."
-print "This script has been tested on OS X El Capitan, but not on Windows. This script should work on most Linux based operating systems."
+print "This script has been tested on OS X El Capitan, but not on Windows. This script should work on most UNIX based operating systems."
 
 hostname = "google.com" #since google seems to be a fairly reliable site when we look at uptime
 counter = 0
