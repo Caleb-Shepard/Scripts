@@ -1,4 +1,4 @@
-#similar scripts are easily found with a google search
+#similar scripts are easily found with a web search
 #mitigation for these attacks are usually upstream from your server
 
 import socket #For socket creation later
