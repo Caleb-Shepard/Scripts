@@ -1,4 +1,4 @@
-# this is an easy install of eclipse kelper for Ubuntu
+# this is an easy install of eclipse neon for Ubuntu
 # you should update packages before running this if you are running it as a standalone script
 
 # housekeeping
@@ -12,9 +12,8 @@ cd ~/Downloads && wget https://www.eclipse.org/downloads/download.php?file=/oomp
 # move package
 mv ~/Downloads/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz /opt/eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
 
-# checksum
+# checksum; continues anyway if bad sum
 cd /opt && sha512sum -c "b2bde9d9485696f7a86ff7b1effa7022ccf517c6f81ea1df937fe464338a98af43898125e78f2110a7a9592a67ce8b99a38c27b1ae214ef6b636f9a968269ff3  eclipse-inst-linux64.tar.gz"
-# you should instead target the downloaded package and stop the installation of the package if the sum is bad. Notify the user at the end of the script
 
 # extract package
 tar -xvf eclipse-standard-kepler-SR2-linux-gtk-x86_64.tar.gz
