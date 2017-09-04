@@ -1,13 +1,9 @@
-#Help received from stackoverflow.com user "10flow" http://stackoverflow.com/questions/2953462/pinging-servers-in-python
 import os
 import time
 
-os.system("clear") #Clear terminal on execution
+os.system("clear")
 
-print "\nThis script was made originally to make my cellular wifi hotspot remain open by keeping internet activity active."
-print "This script has been tested on OS X El Capitan, but not on Windows. This script should work on most UNIX based operating systems."
-
-hostname = "google.com" #since google seems to be a fairly reliable site when we look at uptime
+hostname = "google.com"
 counter = 0
 success = 0
 failed = 0
@@ -15,7 +11,7 @@ seconds = 60
 
 print "This script sends a packet once every %s seconds.\n" % (seconds)
 
-while True: #loop indefinitely and execute the clear command after the first pass
+while True: #loop indefinitely and use the 'clear' command after the first pass
         if counter > 0:
             os.system("clear")
         response = os.system("ping -c 1 " + hostname)
