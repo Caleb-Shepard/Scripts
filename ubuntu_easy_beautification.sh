@@ -60,13 +60,9 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# add nvidia repo
+# uncomment the following lines to add nvidia repo
 # apt-get update
 # apt-get install nvidia-*
-
-# dl grub config
-# mv the config to /etc/grub
-# sudo grub-mkconfig 
 
 # install chromium
 apt-get install -y chromium-browser
@@ -79,4 +75,3 @@ apt-get install -y x11-xkb-utils
 # set caps to control in shell profiles
 echo setxkbmap -option ctrl:nocaps >> ~/.zshrc
 echo setxkbmap -option ctrl:nocaps >> ~/.bashrc
-
