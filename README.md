@@ -11,7 +11,7 @@ if Scripts is a directory, you may need to specify a valid destination for
 your clone, and move the scripts into your ~/Scripts directory
 
 ### Prerequisites
-You should have Python3, sh, and a C compiler on your system
+You should have Python3, sh, and a C compiler on your system;
 xmodmap is needed for ctrl_alt_esc_swap.xmod
 ```
 sudo apt-get install xmodmap
