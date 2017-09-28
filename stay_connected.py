@@ -12,14 +12,9 @@ seconds = 60
 print "This script sends a packet once every %s seconds.\n" % (seconds)
 
 while True: #loop indefinitely and use the 'clear' command after the first pass
-        if counter > 0:
-            os.system("clear")
         response = os.system("ping -c 1 " + hostname)
         counter += 1
-        if counter > 1:
-            print "\nPing sent. We have sent %s packets from this program since we have started it.\n" % (counter)
-        else:
-            print "\nPing sent. We have sent %s packet from this program since we have started it. \n" % (counter)
+        print "\nPing sent. We have sent %s packets from this program since we have started it.\n" % (counter)
         #and then check the response... 
         if response == 0:
             print hostname, 'is up! It seems that you are connected.\n'
@@ -29,3 +24,4 @@ while True: #loop indefinitely and use the 'clear' command after the first pass
             failed += 1
         print "%s / %s pings successful            %s / %s pings failed" % (success, counter, failed, counter)
         time.sleep(seconds) #delay for one minute (60 seconds)
+        os.system("clear")
