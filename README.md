@@ -39,11 +39,13 @@ tHiS iS a SaSsY sTrInG
 **ubuntu_natural_scrolling_17_04.sh**
 ```
 # This should be run with root privileges
-sudo ubuntu_natural_scrolling_17_04.sh
+chmod +x ~/Scripts/ubuntu_natural_scrolling_17_04.sh
+sudo ~/Scripts/ubuntu_natural_scrolling_17_04.sh
 ```
 
 **ubuntu_easy_beautification.sh**
 ```
+# Installs custom shell themes and some desktop applications
 # This should be run with root privileges
 # modify as you wish before running
 chmod +x ~/Scripts/ubuntu_easy_beautification.sh
