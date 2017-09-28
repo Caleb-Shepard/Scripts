@@ -61,7 +61,7 @@ enable user shell themes, then restart gnome-tweak (you may use the command agai
 gnome-tweak-tool
 ```
 Your settings should look like this when you are done
-![beautified_gnome3](img/ubuntu_beautified.jpg?raw=true "Gnome3")
+![beautified_gnome3](img/ubuntu_beautified.png?raw=true "Gnome3")
 
 ### Authors
     Caleb Shepard
