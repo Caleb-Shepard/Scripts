@@ -31,8 +31,6 @@ rmdir img
 Read the scripts that you plan to run before you run them, as a safe practice.
 
 **sponge**
-This is a simple C program that converts strings into sassy spongebob strings
-Useful when you appreciate dead memes but send longer messages to friends
 ```
 % ./sponge "This is a sassy string"
 tHiS iS a SaSsY sTrInG
