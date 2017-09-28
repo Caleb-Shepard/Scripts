@@ -7,6 +7,8 @@ For the lazy:
 mkdir -p ~/Scripts && cd
 git clone https://github.com/Caleb-Shepard/Scripts
 ```
+if Scripts is a directory, you may need to specify a valid destination for
+your clone, and move the scripts into your ~/Scripts directory
 
 ### Prerequisites
 You should have Python3, sh, and a C compiler on your system
@@ -19,16 +21,21 @@ sudo apt-get install xmodmap
 ```
 cd ~/Scripts
 cc -o sPoNgEbOb.c sponge
-#rm sPoNgEbOb.c
+# use the following lines if you like to clean up
+rm sPoNgEbOb.c
+rm img/ubuntu_beautified.png
+rmdir img
 ```
 
 ### Usage
 Read the scripts that you plan to run before you run them, as a safe practice.
 
 **sponge**
-This is a simple C program that converts strings into sassy spongebob talk.
+This is a simple C program that converts strings into sassy spongebob strings
+Useful when you appreciate dead memes but send longer messages to friends
 ```
-./sponge "This is a string"
+% ./sponge "This is a sassy string"
+tHiS iS a SaSsY sTrInG
 ```
 
 **ubuntu_natural_scrolling_17_04.sh**
@@ -39,11 +46,12 @@ sudo ubuntu_natural_scrolling_17_04.sh
 
 **ubuntu_easy_beautification.sh**
 ```
-# This will run the script as root. Read the script before trying this!
+# This should be run with root privileges
+# modify as you wish before running
 chmod +x ~/Scripts/ubuntu_easy_beautification.sh
 sudo ~/Scripts/ubuntu_easy_beautification.sh
 ```
-After running the script successfully, log into a gnome session and open
+After running the script successfully, log into a Gnome3 session and open
 ```
 # this is the command to open gnome-tweak
 gnome-tweak-tool
@@ -53,7 +61,7 @@ enable user shell themes, then restart gnome-tweak (you may use the command agai
 gnome-tweak-tool
 ```
 Your settings should look like this when you are done
-![beautified_gnome3](/relative/path/to/img.jpg?raw=true "Gnome")
+![beautified_gnome3](img/ubuntu_beautified.jpg?raw=true "Gnome3")
 
 ### Authors
     Caleb Shepard
