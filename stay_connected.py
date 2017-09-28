@@ -1,8 +1,6 @@
 import os
 import time
 
-os.system("clear")
-
 hostname = "google.com"
 counter = 0
 success = 0
@@ -24,4 +22,5 @@ while True: #loop indefinitely and use the 'clear' command after the first pass
             failed += 1
         print "%s / %s pings successful            %s / %s pings failed" % (success, counter, failed, counter)
         time.sleep(seconds) #delay for one minute (60 seconds)
-        os.system("clear")
+        # clear the screen
+        print("\x1b[1;1H\x1b[J")
