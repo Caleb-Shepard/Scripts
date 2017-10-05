@@ -1,11 +1,6 @@
 #include <locale.h>
-#include <unistd.h>
 #include <stdio.h>
-#include <wchar.h>      /* wint_t */
-
-void poly_putchar(char c){
-    write(1, &c, 1);
-}
+#include <wchar.h>
 
 int main(int argc, char **argv){
     int i;
@@ -19,7 +14,7 @@ int main(int argc, char **argv){
                 printf("%lc", (wint_t)(*argv[i]+65248));
             }
             else
-                poly_putchar(*argv[i]);
+                printf("%c", *argv[i]);
             argv[i]++;
         }
         i++;
