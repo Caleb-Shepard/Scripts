@@ -43,7 +43,7 @@ apt-get install -y ubuntu-gnome-desktop gparted gnome-tweak-tool
 # install Flat-Plat theme for gnome
 cd /tmp
 curl -sL https://github.com/nana-4/Flat-Plat/archive/v20170515.tar.gz | tar xz
-cd Flat-Plat-20170515 && ./install.sh
+cd materia-theme-20170515 && ./install.sh
 
 # install Flat Remix icon theme for gnome
 cd /tmp
