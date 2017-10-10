@@ -72,12 +72,13 @@ Your settings should look like this when you are done
 
     Visit the flat remix repository to support daniruiz
     
+### License
+This project is licensed under the GPLv2
+
+### External Links
+
    [Flat Remix](https://github.com/daniruiz/Flat-Remix)
 
    [nana-4](https://github.com/nana-4)
     
-### Notables
    [Wireless SSID refresher for Gnome Shell](https://extensions.gnome.org/extension/905/refresh-wifi-connections/)
-
-### License
-This project is licensed under the GPLv2
