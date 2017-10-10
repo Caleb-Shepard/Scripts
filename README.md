@@ -67,10 +67,13 @@ Your settings should look like this when you are done
     Caleb Shepard
 
 ### Acknowledgments
-    A special thank you to nana-4 for the flat plat theme included in the beautification script
+    A special thank you to [nana-4](https://github.com/nana-4) for the flat plat theme included in the beautification script
     Thanks to daniruiz for the Flat-Remix icon theme, which makes the shell theme look cohesive
 
-    See https://github.com/daniruiz/Flat-Remix to support daniruiz
+    Visit the [flat remixx repository](https://github.com/daniruiz/Flat-Remix) to support daniruiz
+    
+### Notables    
+    Consider installing a Wireless [SSID refresher](https://extensions.gnome.org/extension/905/refresh-wifi-connections/) for Gnome Shell
 
 ### License
 This project is licensed under the GPLv2
