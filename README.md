@@ -36,6 +36,13 @@ Read the scripts that you plan to run before you run them, as a safe practice.
 tHiS iS a SaSsY sTrInG
 ```
 
+**awful**
+```
+% ./awful "why bid this habben"
+# paste contents
+# ｗＨｙ🅱️ＩｄＴｈＩｓＨａ🅱️🅱️Ｅｎ
+```
+
 **ubuntu_natural_scrolling_17_04.sh**
 ```
 # This should be run with root privileges
