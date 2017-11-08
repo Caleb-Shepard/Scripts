@@ -6,8 +6,7 @@ int main(int argc, char **argv){
     int i;
 
     i = 1;
-    while(i < argc)
-    {
+    while(i < argc){
         while(*argv[i]){
             if(*argv[i] >= 'A' && *argv[i] <= 'z'){
                 setlocale(LC_ALL, "");

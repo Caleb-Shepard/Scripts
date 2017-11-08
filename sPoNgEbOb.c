@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-void stupify(char *str)
-{
+void stupify(char *str){
     int modulate;
 
     modulate = 1;
-    while(*str)
-    {
+    while(*str){
         // if it's a letter, alternate
-        if(*str > 64 && *str < 123)
-        {
+        if(*str > 64 && *str < 123){
             // logical optimization, still checking
-            if(*str < 91 || *str > 96)
-            {
+            if(*str < 91 || *str > 96){
                 modulate %= 2;
 
                 if(!modulate && *str > 96)
@@ -32,8 +28,7 @@ void stupify(char *str)
     }
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv){
     if(argc > 1)
         stupify(argv[1]);
     printf('\n');
