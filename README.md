@@ -38,9 +38,9 @@ tHiS iS a SaSsY sTrInG
 
 **awful**
 ```
-% ./awful "why bid this habben"
+% ./awful "String"
 # paste contents
-# ｗＨｙ🅱️ＩｄＴｈＩｓＨａ🅱️🅱️Ｅｎ
+# ｓＴｒＩｎＧ
 ```
 
 **ubuntu_natural_scrolling_17_04.sh**
