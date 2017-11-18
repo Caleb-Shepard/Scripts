@@ -5,11 +5,12 @@
 # Change this variable to change the name of the folder created during install
 DOWNLOAD_FOLDER="temp-download-spongebob"
 
+cd
 git clone https://github.com/Caleb-Shepard/Scripts.git $DOWNLOAD_FOLDER
 cd $DOWNLOAD_FOLDER
-sudo gcc sPoNgEbOb.c -o /usr/bin/sponge
+gcc sPoNgEbOb.c -o /usr/bin/sponge
 cd ..
-sudo rm -r $DOWNLOAD_FOLDER
+rm -rf $DOWNLOAD_FOLDER
 
 # Dorky stuff to print at the end :P
 echo
