@@ -7,8 +7,7 @@ DOWNLOAD_FOLDER="temp-download-spongebob"
 
 git clone https://github.com/Caleb-Shepard/Scripts.git $DOWNLOAD_FOLDER
 cd $DOWNLOAD_FOLDER
-sudo gcc sPoNgEbOb.c -o sponge
-mv sponge /usr/bin/sponge
+sudo gcc sPoNgEbOb.c -o /usr/bin/sponge
 cd ..
 sudo rm -r $DOWNLOAD_FOLDER
 
