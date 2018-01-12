@@ -19,21 +19,15 @@ apt-get install -y eclipse eclipse-*
 apt-get install -y evolution
 apt-get install -y evolution-ews
 
-# Add spotify signing key, spotify repository, and install spotify client
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-apt-get -y update
-apt-get -y install spotify-client
-
 # set default shell to zsh
 chsh -s /bin/zsh
 
 # download config files
 mkdir -p ~/git
-cd ~/git && git clone https://github.com/Caleb-Shepard/Dotfiles
-cp ~/git/Dotfiles/.bashrc ~/.bashrc
-cp ~/git/Dotfiles/.vimrc ~/.vimrc
-cp ~/git/Dotfiles/.tmux.conf ~/.tmux.conf
+cd ~/git && git clone https://github.com/Caleb-Shepard/dotfiles
+cp ~/git/dotfiles/configs/.bashrc ~/.bashrc
+cp ~/git/dotfiles/configs/.vimrc ~/.vimrc
+cp ~/git/dotfiles/configs/.tmux.conf ~/.tmux.conf
 # clean up
 rm -rf ~/git/Dotfiles/
 
