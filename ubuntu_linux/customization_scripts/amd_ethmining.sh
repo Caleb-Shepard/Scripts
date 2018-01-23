@@ -35,7 +35,9 @@ touch mine.sh
 
 echo "" > mine.sh
 echo $(echo -n "#!"; echo "/bin/bash") >> mine.sh
-echo "export GPU_FORCE_64BIT_PTR=0" >> mine.sh
+# The next two lines deal with 64BIT option. Choose your preference if you would like.
+echo "#Uncomment below according to your preference" >> mine.sh
+echo "#export GPU_FORCE_64BIT_PTR=0" >> mine.sh
 echo "export GPU_MAX_HEAP_SIZE=100" >> mine.sh
 echo "export GPU_USE_SYNC_OBJECTS=1" >> mine.sh
 echo "export GPU_MAX_ALLOC_PERCENT=100" >> mine.sh
