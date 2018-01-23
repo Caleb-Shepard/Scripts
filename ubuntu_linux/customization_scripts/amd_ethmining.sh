@@ -38,7 +38,7 @@ echo "export GPU_MAX_HEAP_SIZE=100" >> mine.sh
 echo "export GPU_USE_SYNC_OBJECTS=1" >> mine.sh
 echo "export GPU_MAX_ALLOC_PERCENT=100" >> mine.sh
 echo "export GPU_SINGLE_ALLOC_PERCENT=100" >> mine.sh
-echo "./ethdcrminer64 -epool $POOL_ADDRESS -ewal $YOUR_WALLET.$MINER_NAME -epsw x -mode 1 -tt 68 -allpools 1" >> mine.sh
+echo "/usr/local/claymore95/ethdcrminer64 -epool $POOL_ADDRESS -ewal $YOUR_WALLET.$MINER_NAME -epsw x -mode 1 -tt 68 -allpools 1" >> mine.sh
 
 chmod +x mine.sh
 
