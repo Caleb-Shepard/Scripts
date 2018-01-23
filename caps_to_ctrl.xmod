@@ -1,7 +1,0 @@
-! -*- coding: utf-8 -*-
-! 2017-09-29
-! xmodmap caps_to_ctrl.xmod
-
-remove Lock = Caps_Lock
-keysym Control_L = Caps_Lock
-add Control = Control_L
