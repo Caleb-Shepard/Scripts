@@ -2,9 +2,11 @@
 # From the guide at https://www.reddit.com/r/EtherMining/wiki/software/apps/linux
 # Scripted
 
-$POOL_ADDRESS=
-$YOUR_WALLET=
-$MINER_NAME=$hostname
+# Change the wallet to your address and pick a pool that is right for you
+# Your MINER_NAME can be anything that you want it to be
+POOL_ADDRESS="us1.ethermine.org:4444"
+YOUR_WALLET="0x1E7b423065F423e9a7B21D313540B65abfd09D53"
+MINER_NAME=$(hostname)
 
 # Uncomment to install ssh
 sudo apt-get update
