@@ -1,6 +1,6 @@
 # Script to install ohce.c
 
-gcc -o /usr/local/bin/ohce .../sources/ohce.c
+gcc -o /usr/local/bin/ohce ../sources/ohce.c
 rm install_ohce.sh
 rmdir ../installers
 

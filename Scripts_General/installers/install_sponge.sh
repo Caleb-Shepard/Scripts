@@ -5,7 +5,7 @@
 
 # Change this variable to change the name of the folder created during install
 
-gcc -o /usr/local/bin/sponge .../sources/sPoNgEbOb.c
+gcc -o /usr/local/bin/sponge ../sources/sPoNgEbOb.c
 rm install_sponge.sh
 rmdir ../installers
 
