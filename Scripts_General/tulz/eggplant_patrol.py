@@ -5,12 +5,39 @@ message = ""
 for arg in sys.argv[1:]:
     message += str(arg) + " "
 
+
 # hehehehehehhh B) 
 for char in message:
-    if char.lower() is 'b':
-        print(":b:", end=' ')
-    elif char.isalpha():
-        print(":regional_indicator_" + char.lower() + ":", end=' ')
+    if char.isalpha():
+        if char is 'b':                                         #aAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaa
+            print(":b:", end=' ')
+        elif char is 'B':   # really extra but unsure why lower checks don't work. See previous version
+            print(":b:", end=' ')
+        else:
+            print(":regional_indicator_" + char.lower() + ":", end=' ')
+    elif char.isnumeric():
+        if char is '1':
+            print(":one:", end=' ')
+        elif char is '2':
+            print(":two:", end=' ')
+        elif char is '3':
+            print(":three:", end=' ')
+        elif char is '4':
+            print(":four:", end=' ')
+        elif char is '5':
+            print(":five:", end=' ')
+        elif char is '6':
+            print(":six:", end=' ')
+        elif char is '7':
+            print(":seven:", end=' ')
+        elif char is '8':
+            print(":eight:", end=' ')
+        elif char is '9':
+            print(":nine:", end=' ')
+        elif char is '0':
+            print(":zero:", end=' ')
+        else: # <should be> unneccessary case
+            print(char, end='')
     elif char is ' ':
         print("   ", end='')
     elif char is '!':
