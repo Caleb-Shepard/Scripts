@@ -9,10 +9,9 @@ for arg in sys.argv[1:]:
 # hehehehehehhh B) 
 for char in message:
     if char.isalpha():
-        if char is 'b':                                         #aAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaa
-            print(":b:", end=' ')
-        elif char is 'B':   # really extra but unsure why lower checks don't work. See previous version
-            print(":b:", end=' ')
+        # gift me squars NIX
+        if char.lower() == 'b':
+            print(":b:", end = ' ')
         else:
             print(":regional_indicator_" + char.lower() + ":", end=' ')
     elif char.isnumeric():
