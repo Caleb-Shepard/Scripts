@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# installs rosetta2, arm homebrew (brew), 64-bit homebrew (brew64)
+# installs homebrew packages
+# turns on strict firewall
+
+# turn on strict firewall
+sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 2    
+
 # install rosetta2
 /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
@@ -19,7 +26,7 @@ function brew64() {
 }
 
 if [ -d "/opt/homebrew/bin" ]; then
-    export PATH="/opt/homebrew/bin:$PATH”
+    export PATH="/opt/homebrew/bin:\$PATH”
 fi
 EOF
 ) 
