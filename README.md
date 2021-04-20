@@ -2,9 +2,9 @@
 A collection of scripts to automate the boring stuff and bring fun tools to your workstation.
 
 ## Getting Started
-For the lazy:
+Easy install:
 ```
-mkdir -p ~/Scripts && cd
+mkdir -p ~/Scripts && cd ~
 git clone https://github.com/Caleb-Shepard/Scripts
 ```
 if Scripts is a directory, you may need to specify a valid destination for
