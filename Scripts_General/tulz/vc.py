@@ -7,13 +7,9 @@ import keyboard as yeeboard
 
 # Set the global hotkey to something arbitrary
 # ! Starts and stops the script
-GLOBAL_HOTKEY   = keyboard.HotKey.parse('<ctrl>+<alt>+i')
 GLOBAL_STOP_KEY = keyboard.Key.esc
 # ! Size 4
 BUFFER = '    '
-
-from time import sleep
-sleep(1)
 
 ime_dictionary = {
     'pepv': 'vc? :widepeepo_0::widepeepo_1::widepeepo_2::widepeepo_3::widepeepo_4::widepeepo_5::widepeepo_6::widepeepo_7:\n\
@@ -63,8 +59,7 @@ def on_press(key):
         # Run it through our ime
         ime()
     except AttributeError:
-        print('special key {0} pressed'.format(
-            key))
+        print('special key {0} pressed'.format(key))
 
 
 # Log and take action if any
